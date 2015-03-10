@@ -13,11 +13,9 @@
 
 <path id="build.classpath">
 
-<fileset dir="${lib}" >
+    <fileset dir="${lib}" includes="*.jar"/>
 
-<include name="**/*.jar"/>
-
-</fileset>
+    <pathelement location="${build}"/>
 
 </path>
 
