@@ -51,7 +51,7 @@
 
 <target  name="dist" depends="jar">
 
-<zip destfile="${art}/myArt.zip" update="true">
+<zip destfile="${art}/myArt-${TSTAMP}.zip" update="true">
        <fileset dir="${build}"/>
        <fileset dir="${config}"/>
        <fileset dir="${lib}"/>
