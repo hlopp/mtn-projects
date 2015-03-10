@@ -10,13 +10,17 @@
   <property name="art" location="art"/>
 <property name="config" location="config"/>
 
+
 <path id="build.classpath">
 
-    <fileset dir="{$lib}" includes="*.jar"/>
+<fileset dir="${lib}" >
 
-    <pathelement location="{$build}"/>
+<include name="**/*.jar"/>
+
+</fileset>
 
 </path>
+
 
   <target name="init" depends="clean">
     <!-- Create the time stamp -->
