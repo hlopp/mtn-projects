@@ -9,7 +9,7 @@
   <groupId>com.mycom.app</groupId>
   <artifactId>maven-task</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0-${maven.build.timestamp}</version>
   <name>maven-task</name>
 
 <dependencies>
